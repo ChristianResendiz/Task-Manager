@@ -38,7 +38,7 @@ class ConfigService {
       host: this.getValue('DB_HOST'),
       port: parseInt(this.getValue('DB_PORT')),
       username: this.getValue('DB_USER'),
-      password: this.getValue('DB_PASSWORD'),
+      // password: this.getValue('DB_PASSWORD'),
       database: this.getValue('DB_DATABASE'),
       autoLoadModels: true,
       // sync: { force: true },

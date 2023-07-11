@@ -23,7 +23,7 @@ async function bootstrap() {
   useContainer(app.select(AppModule), { fallbackOnErrors: true });
 
   const options = new DocumentBuilder()
-    .setTitle('Nextline Task Manager API')
+    .setTitle('Task Manager API')
     .setDescription('')
     .setVersion('1.0.0')
     .addBearerAuth()
